@@ -19,8 +19,54 @@ It queries certificate datasets for a given domain, extracts related subdomains,
 Clone the repository:
 
 ```bash
-git clone https://github.com/pixelrahulnotfound/subdomain-finder
-cd subdomain-finder
+git clone https://github.com/<your-username>/<your-repo>
+cd <your-repo>
+```
+
+(If you add dependencies later, document them here.)
+
+---
+
+## Usage
+
+Run the tool by passing a domain:
+
+```bash
+python3 subdomains.py --domain example.com
+```
+
+If your script supports a short flag:
+
+```bash
+python3 subdomains.py -d example.com
+```
+
+When executed, the tool will:
+
+1. Query Certificate Transparency logs  
+2. Extract subdomains related to the given domain  
+3. Remove duplicates and invalid entries  
+4. Print a clean list of results
+
+---
+
+## Example Output
+
+```
+api.example.com
+blog.example.com
+cdn.example.com
+shop.example.com
+```
+
+---
 
 
 
+
+
+---
+
+## License
+
+MIT
