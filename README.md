@@ -27,7 +27,7 @@ cd subdomain-finder
 
 ## Usage
 
-Run the tool by passing a domain:
+Run the tool:
 
 ```bash
 python main.py
@@ -36,7 +36,7 @@ python main.py
 
 
 
-When executed, the tool will:
+When executed, the tool will ask for a domain as input(say u entered example.com) so for that input the tool will:
 
 1. Query Certificate Transparency logs  
 2. Extract subdomains related to the given domain  
