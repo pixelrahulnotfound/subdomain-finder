@@ -30,7 +30,8 @@ cd subdomain-finder
 Run the tool by passing a domain:
 
 ```bash
-python3 subdomains.py --domain example.com
+python3 main.py
+
 ```
 
 
