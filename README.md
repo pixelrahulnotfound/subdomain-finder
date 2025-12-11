@@ -23,9 +23,7 @@ git clone https://github.com/pixelnotfound/subdomain-finder
 cd subdomain-finder
 ```
 
-(If you add dependencies later, document them here.)
 
----
 
 ## Usage
 
