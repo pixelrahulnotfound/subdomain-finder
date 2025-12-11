@@ -19,8 +19,8 @@ It queries certificate datasets for a given domain, extracts related subdomains,
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>
-cd <your-repo>
+git clone https://github.com/pixelnotfound/subdomain-finder
+cd subdomain-finder
 ```
 
 (If you add dependencies later, document them here.)
@@ -35,11 +35,7 @@ Run the tool by passing a domain:
 python3 subdomains.py --domain example.com
 ```
 
-If your script supports a short flag:
 
-```bash
-python3 subdomains.py -d example.com
-```
 
 When executed, the tool will:
 
@@ -65,8 +61,4 @@ shop.example.com
 
 
 
----
 
-## License
-
-MIT
